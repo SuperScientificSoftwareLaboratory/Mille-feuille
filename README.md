@@ -19,6 +19,20 @@ make bicg
 ```
 2.Run code on matrix data. Running the program requires one parameter: matrix path.
 
+```
+./main-cg matrix.mtx
+./main-bicg matrix.mtx
+```
+
+3.Example
+
+```
+cd test
+sh run_cg.sh
+sh run_bicg.sh
+```
+
+4.The Performance result will appear in the data folder.
 
 ## Contact us
 If you have any questions about running the code, please contact Dechuang Yang.
