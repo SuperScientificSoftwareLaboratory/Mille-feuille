@@ -11,6 +11,15 @@ To better reproduce experiment results, we suggest an NVIDIA GPU with compute ca
 ## Execution
 Our test programs currently support input files encoded using the matrix market format. All matrix market datasets used in this evaluation are publicly available from the SuiteSparse Matrix Collection.
 
+1.The command 'make xxx' generates an executable file.
+
+```
+make cg
+make bicg
+```
+2.Run code on matrix data. Running the program requires one parameter: matrix path.
+
+
 ## Contact us
 If you have any questions about running the code, please contact Dechuang Yang.
 
